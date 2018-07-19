@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>快递费核对</title>
+</head>
+<body>
+<h1>上海好臻鲜贸易有限公司 快递费核对系统</h1>
+<div style="background-image:url(http://localhost:8088/static/img/img03.jpg);height:1200px" >
+<h3 style="text-align:left;letter-spacing:12px;">请上传 快递助手 和 物流公司 文件</h3>
+<p></p>
+<form id="data_check" method="post" enctype="multipart/form-data" action="/download" style="text-align:left;">
+<input required="required" type="file" name="file_1" id="file_1" value="" />
+<input required="required" type="file" name="file_2" id="file_2" value="" />
+<input type="submit" value="提交" />
+</form>
+<p>使用说明：</p>
+<p>1. 第一个按钮请输入快递助手excel，第二个按钮请输入物流公司excel。</p>
+</p> 2. 请确保物流公司excel的标题列含有：运单编号、费用、计费重量，如果不是，请手动修改后再上传。</p>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>快递费核对</title>
+</head>
+<body>
+<h1>好臻鲜贸易有限公司 快递费核对系统</h1>
+<div style="background-image:url(http://localhost:8088/static/img/img03.jpg);height:1200px" >
+<h3 style="text-align:left;letter-spacing:12px;">请上传快递助手的文件</h3>
+<p></p>
+<form id="data_check" method="post" enctype="multipart/form-data" action="/download" style="text-align:left;">
+<input required="required" type="file" name="file_1" id="file_1" value="" />
+<input type="submit" value="提交" />
+</form>
+<p><br><br><br></p>
+<h3 style="text-align:left;letter-spacing:12px;">请上传快递公司的文件</h3>
+<p></p>
+<form id="data_check" method="post" enctype="multipart/form-data" action="/download" style="text-align:left;">
+<input required="required" type="file" name="file_2" id="file_2" value="" />
+<input type="submit" value="提交" />
+</form>
+</div>
+</body>
+</html>
